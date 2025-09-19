@@ -9,7 +9,7 @@ body {
 
 /* Header */
 header {
-  background: #0056b3;
+  background: #ffffff;
   color: white;
   padding: 2rem;
   text-align: center;
@@ -18,7 +18,7 @@ header {
 header h1 {
   margin: 0;
   font-size: 2rem;
-  color: #ffffff; /* header title font color */
+  color: #292562; /* header title font color */
 }
 
 header p {
