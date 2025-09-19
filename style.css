@@ -3,7 +3,7 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-  background: #f9fafb;
+  background: #fffbef; /* updated background color */
   color: #222;
 }
 
@@ -17,12 +17,12 @@ header {
 
 header h1 {
   margin: 0;
-  font-size: 1rem;
+  font-size: 2rem;
 }
 
 header p {
   margin: .5rem 0 0;
-  font-size: 1rem;
+  font-size: 1.2rem;
 }
 
 /* Logo Styling */
@@ -31,7 +31,7 @@ header p {
   width: 100%;
   height: auto;       /* keep proportions */
   display: block;
-  margin: 0 auto 1rem; /* center logo with space below */
+  margin: 0 auto 1rem; /* center logo with spacing below */
 }
 
 /* Navigation */
@@ -72,7 +72,7 @@ nav a:hover {
 }
 
 .card {
-  background: white;
+  background: #fffbef; /* updated background color for cards */
   border-radius: 12px;
   padding: 1.5rem;
   box-shadow: 0 2px 6px rgba(0,0,0,0.1);
