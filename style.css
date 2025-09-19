@@ -11,7 +11,7 @@ body {
 header {
   background: #ffffff;
   color: white;
-  padding: 1rem;
+  padding: 0;          /* removed padding */
   text-align: center;
 }
 
@@ -120,4 +120,3 @@ footer a {
   color: #90cdf4;
   text-decoration: none;
 }
-
