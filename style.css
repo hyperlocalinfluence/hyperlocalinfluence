@@ -18,33 +18,20 @@ header {
 
 header h1 {
   margin: 10px 0 5px;
-  font-size: 2rem;
+  font-size: 2.5rem;
 }
 
 header p {
-  font-size: 1.2rem;
+  font-size: 1.3rem;
 }
 
 /* Logo Styling */
 .logo {
-  max-width: 180px;  /* medium default size */
-  width: 100%;       /* allows scaling */
-  height: auto;      /* keeps proportions */
+  max-width: 280px;   /* large logo */
+  width: 100%;        /* allows scaling within max-width */
+  height: auto;       /* keep proportions */
   display: block;
-  margin: 0 auto 10px; /* center logo above the title */
-}
-
-/* Responsive Logo Adjustments */
-@media (max-width: 768px) {
-  .logo {
-    max-width: 140px;   /* medium on tablets */
-  }
-}
-
-@media (max-width: 480px) {
-  .logo {
-    max-width: 110px;   /* medium on phones */
-  }
+  margin: 0 auto 15px; /* center logo above the title */
 }
 
 /* Navigation */
