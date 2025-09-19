@@ -27,7 +27,7 @@ header p {
 
 /* Logo Styling */
 .logo {
-  max-width: 280px;   /* large logo size */
+  max-width: 360px;   /* larger logo size */
   width: 100%;
   height: auto;       /* keep proportions */
   display: block;
