@@ -11,7 +11,7 @@ body {
 header {
   background: #ffffff;
   color: white;
-  padding: 0;          /* removed padding */
+  padding: 2rem;       /* padding re-added */
   text-align: center;
 }
 
@@ -112,7 +112,7 @@ nav a:hover {
 footer {
   background: #292562;
   color: #ffffff; /* footer font color */
-  padding: 0;     /* removed footer padding */
+  padding: 2rem;  /* padding re-added */
   text-align: center;
 }
 
