@@ -1,122 +1,36 @@
-/* General Reset */
-body {
-  font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 0;
-  background: #fefce6; /* warm background */
-  color: #292562;      /* updated font color */
-}
-
-/* Header */
-header {
-  background: #ffffff;
-  color: white;
-  padding: 1.5rem;       /* padding re-added */
-  text-align: center;
-}
-
-header h1 {
-  margin: 0;
-  font-size: 2rem;
-  color: #292562; /* header title font color */
-}
-
-header p {
-  margin: .5rem 0 0;
-  font-size: 1.2rem;
-  color: #292562; /* header tagline font color */
-}
-
-/* Logo Styling */
-.logo {
-  max-width: 480px;   /* large logo */
-  width: 100%;
-  height: auto;
-  display: block;
-  margin: 0 auto 1rem;
-}
-
-/* Navigation */
-nav {
-  background: #292562;
-  padding: .5rem;
-  text-align: center;
-}
-
-nav a {
-  color: white;
-  text-decoration: none;
-  margin: 0 1rem;
-  font-weight: bold;
-}
-
-nav a:hover {
-  text-decoration: underline;
-}
-
 /* Sections */
 .section {
-  padding: 3rem 1.5rem;
+  padding: 1rem 1rem;   /* reduced padding inside sections */
   max-width: 1100px;
-  margin: auto;
+  margin: 2rem auto;    /* keep vertical margins (2rem top/bottom) */
   background: #fefce6;
-  color: #292562; /* section font color */
+  color: #292562;       /* section font color */
 }
 
 .section h2 {
   text-align: center;
-  margin-bottom: 1.5rem;
-  color: #292562; /* section heading font color */
+  margin: 0 0 1rem;     /* keep spacing under headings */
+  color: #292562;       /* section heading font color */
 }
 
 /* Pricing Grid */
 .pricing {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: 1rem;
+  gap: 0.5rem;          /* reduced gap between cards */
+  margin: 0 auto;       /* center grid with no extra vertical spacing */
+  padding: 0;           /* no extra padding around grid */
 }
 
 .card {
   background: #fefce6;
   border-radius: 12px;
-  padding: 1.5rem;
+  padding: 1rem;        /* tighter padding inside each card */
   box-shadow: 0 2px 6px rgba(0,0,0,0.1);
-  color: #292562; /* card font color */
+  color: #292562;       /* card font color */
 }
 
 .card h3 {
   margin-top: 0;
-  color: #292562; /* card heading font color */
-}
-
-/* CTA Button */
-.cta {
-  text-align: center;
-  margin-top: 2rem;
-  color: #292562;
-}
-
-.cta a {
-  background: #00b1ef;
-  color: white;
-  padding: 1rem 2rem;
-  border-radius: 8px;
-  text-decoration: none;
-}
-
-.cta a:hover {
-  background: #00b1ef;
-}
-
-/* Footer */
-footer {
-  background: #292562;
-  color: #ffffff; /* footer font color */
-  padding: 1.5rem;  /* padding re-added */
-  text-align: center;
-}
-
-footer a {
-  color: #90cdf4;
-  text-decoration: none;
+  color: #292562;       /* card heading font color */
 }
