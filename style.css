@@ -81,7 +81,7 @@ nav a:hover {
   padding: 1.5rem;
   box-shadow: 0 2px 6px rgba(0,0,0,0.1);
   color: #292562; /* card font color */
-  margin-bottom: 1.5rem; /* space between cards */
+  margin-bottom: 1rem; /* space between cards */
 }
 
 .card h3 {
